@@ -1,0 +1,8 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+npm run stylelint
+npm run prettier
+npm run gitadd
+npm run build
+npm run gitpush 
