@@ -1,7 +1,10 @@
 import React, { useEffect } from 'react';
+import { withLayout } from '../layout/Layout';
+
+import { Typography } from '@mui/material';
 import { useTypedSelector, useActions } from '../hooks';
 
-function Start(): JSX.Element {
+const Start = () => {
   const { start } = useTypedSelector((state) => state.startStore);
   const { setStart } = useActions();
 
@@ -14,9 +17,12 @@ function Start(): JSX.Element {
   return (
     <>
       <h1>Start React KIT</h1>
-      {start} from Redux
+      <div>{start} from Redux</div>
+      <Typography variant="h1" component="div">
+        Start page with Mui
+      </Typography>
     </>
   );
-}
+};
 
-export default Start;
+export default withLayout(Start);

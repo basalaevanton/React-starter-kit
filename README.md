@@ -1,17 +1,25 @@
 # Стартовая сборка React TS.
 
-- eslint
-- stylelint
-- prettier, eslint-config-prettier
-- husky
-- react router dom
 - typescript
+- redux, redux thunk, redux devtools
+- react router dom
 - sass
+- material UI
+- classnames
 - normalize.css
 - axios
-- classnames
-- redux, redux thunk, redux devtools
-- 
+- eslint, stylelint, prettier
+- husky
+-
+
+## Layout
+
+- layout (header, body, footer)
+
+## Hooks
+
+- useScrollY
+- useAction & use TypedSelector (for redux)
 
 ## Available Scripts
 
