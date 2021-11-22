@@ -1,6 +1,5 @@
-import startStore from './startStore';
+import startStore from "./startStore";
 
 export default {
   startStore,
-  
 };

@@ -1,4 +1,4 @@
-import {  StartActionEnum, SetStartAction } from './types';
+import { StartActionEnum, SetStartAction } from "./types";
 
 export const StartActionCreators = {
   setStart: (start: string): SetStartAction => ({

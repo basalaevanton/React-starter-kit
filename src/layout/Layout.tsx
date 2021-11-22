@@ -1,11 +1,11 @@
-import { LayoutProps } from './Layout.props';
-import styles from './Layout.module.scss';
+import { LayoutProps } from "./Layout.props";
+import styles from "./Layout.module.scss";
 
-import React, { FunctionComponent, useEffect } from 'react';
-import { Header } from './Header/Header';
-import { Footer } from './Footer/Footer';
+import React, { FunctionComponent, useEffect } from "react";
+import { Header } from "./Header/Header";
+import { Footer } from "./Footer/Footer";
 
-import cn from 'classnames';
+import cn from "classnames";
 
 const Layout = ({ children }: LayoutProps): JSX.Element => {
   return (

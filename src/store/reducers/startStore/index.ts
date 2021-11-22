@@ -1,7 +1,7 @@
-import { StartAction, StartActionEnum, StartState } from './types';
+import { StartAction, StartActionEnum, StartState } from "./types";
 
 const initialState: StartState = {
-  start: '',
+  start: "",
 };
 
 export default function StartReducer(

@@ -1,8 +1,8 @@
-import React, { useEffect } from 'react';
-import { withLayout } from '../layout/Layout';
+import React, { useEffect } from "react";
+import { withLayout } from "../layout/Layout";
 
-import { Typography } from '@mui/material';
-import { useTypedSelector, useActions } from '../hooks';
+import { Typography } from "@mui/material";
+import { useTypedSelector, useActions } from "../hooks";
 
 const Start = () => {
   const { start } = useTypedSelector((state) => state.startStore);
@@ -11,7 +11,7 @@ const Start = () => {
   console.log(start);
 
   useEffect(() => {
-    setStart('hello');
+    setStart("hello");
   }, []);
 
   return (

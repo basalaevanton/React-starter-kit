@@ -3,7 +3,7 @@ export interface StartState {
 }
 
 export enum StartActionEnum {
-  SET_START = 'SET_START',
+  SET_START = "SET_START",
 }
 
 export interface SetStartAction {

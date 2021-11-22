@@ -6,27 +6,27 @@ module.exports = {
   },
   // Правила ESLint and typescript
   extends: [
-    'eslint:recommended',
-    'plugin:react/recommended',
-    'plugin:@typescript-eslint/recommended',
-    'prettier',
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier",
   ],
-  parser: '@typescript-eslint/parser',
+  parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
     },
     ecmaVersion: 13,
-    sourceType: 'module',
+    sourceType: "module",
   },
-  plugins: ['react', '@typescript-eslint'],
+  plugins: ["react", "@typescript-eslint"],
   rules: {
     // Правило точки с запятой
-    semi: 'off',
-    '@typescript-eslint/semi': ['warn'],
+    semi: "off",
+    "@typescript-eslint/semi": ["warn"],
     // Пустой интерфейс => error
-    '@typescript-eslint/no-empty-interface': [
-      'error',
+    "@typescript-eslint/no-empty-interface": [
+      "error",
       {
         // если extend то ок
         allowSingleExtends: true,
