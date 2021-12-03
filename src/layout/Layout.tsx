@@ -1,7 +1,7 @@
 import { LayoutProps } from "./Layout.props";
 import styles from "./Layout.module.scss";
 
-import React, { FunctionComponent, useEffect } from "react";
+import React, { FunctionComponent } from "react";
 import { Header } from "./Header/Header";
 import { Footer } from "./Footer/Footer";
 
